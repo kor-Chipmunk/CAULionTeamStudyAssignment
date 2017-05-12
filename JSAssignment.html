@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>자바스크립트 BOM 과 DOM 과제</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h2>자바스크립트 과제</h2>
+                <p>해당 웹페이지는 자바스크립트 과제 예시입니다.</p>
+            </div>
+        </div>
+        <div class="container">
+            <table class="table table-hover">
+                <thead>
+                    <th>#</th>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>작성 날짜</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>멋쟁이 사자처럼 홍보물</td>
+                        <td>운영자</td>
+                        <td>2017.02.01</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>멋쟁이 사자처럼 지원서</td>
+                        <td>운영자</td>
+                        <td>2017.02.02</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>멋쟁이 사자처럼 커리큘럼</td>
+                        <td>운영자</td>
+                        <td>2017.02.03</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button id="btnAdd" class="btn btn-default">줄 추가하기</button>
+            <button id="btnRemove" class="btn btn-default">줄 삭제하기</button><br><br>
+
+            <fieldset style="display: none;">
+                <legend>줄 추가 박스</legend>
+                게시글 제목: <input type="text" id="txtTitle" placeholder="제목을 입력해 주세요."><br>
+                작성자: <input type="text" id="txtUser" placeholder="작성자를 입력해 주세요."><br>
+                날짜: <input type="text" id="txtDate" placeholder="날짜를 입력해 주세요."><br>
+                <button id="btnApply" class="btn btn-default">적용하기</button>
+            </fieldset><br><br>
+
+            <img id="imgCircle" src="http://www.placehold.it/100x100" class="img-circle"><br><br>
+            <button id="btnImageSrc" class="btn btn-success">이미지 주소 바꾸기</button>
+            <button id="btnImageClass" class="btn btn-warning">이미지 모양 바꾸기</button>
+
+            <br><br><br>
+            <fieldset>
+                <legend>홈페이지 이동 박스</legend>
+                홈페이지 주소: <input type="text" id="txtLink" placeholder="주소를 입력해 주세요." size="50"><br><br>
+                <button id="btnHomePage" class="btn btn-default">이동하기</button>
+            </fieldset>
+
+        </div>
+    </body>
+    <script src="assignment.js">
+        // 작성 코드
+    </script>
+</html>
